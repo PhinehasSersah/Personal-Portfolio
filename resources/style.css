@@ -1,0 +1,430 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+   font-size: 16px;
+   font-family:'Pacifico', cursive; ;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 13vh;
+    background-color:wheat;
+    position: fixed;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px;
+
+}
+
+header #navbar ul a{
+    list-style: none;
+    display:inline-flex;
+    margin: 7px 30px 0px 0px;
+}
+@media (max-width:750px) {
+    header #navbar ul a {
+        margin-right: 4px;
+    }
+    header li {
+        padding-left: 4px;
+    }
+}
+
+header li {
+    padding-left: 15px;
+    color: rgb(139, 59, 27);
+    font-size: 18px;
+
+}
+header .phine {
+    font-size: 25px;
+    margin: 7px 0px 0px 30px;
+    color: rgb(139, 59, 27);
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4rem;
+    width: 100%;
+    height: 100vh;
+    background-image:url('./images/sam-albur.jpg')
+    
+}
+#welcome-section h1 {
+    font-size: 4vw;
+    color: wheat;
+    margin-left: 2em;
+    letter-spacing: 8px;
+}
+#welcome-section p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    color: wheat;
+    margin-left: 6em;
+}
+
+.middle-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: url('./images/service\ center1.jpg')no-repeat center center fixed;;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover
+}
+.intro {
+    display: flex;
+    width: 60%;
+    margin-left: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 15px 9px 20px 10px;
+}
+
+.description {
+    margin:20px 10px 0px 20px;
+    width: 40%;
+}
+.description h2 {
+    font-size: 3.2vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 2em;
+    color: wheat;
+}
+.description h3 {
+    font-size: 2.6vw;
+    color: wheat;
+}
+.description p {
+    color: wheat;
+font-size: 2.2vw;
+margin-top:1em;
+padding: 5px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* .intro img {
+    width:27rem;
+    height: 80%;
+    border-radius:15%;
+    margin-top: 25px;
+} */
+.skills {
+    width:28%;
+    height: 88%;
+    margin-left: 5vw;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    background-color: wheat;
+    box-shadow: rgb(104, 36, 27)  35px 40px;
+}
+.skills h3 {
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.technology {
+    margin:7vh 0vh 0vh 9vh;
+}
+.skills ul {
+    list-style:decimal-leading-zero;
+    margin: 2.3vw 0px 0px 9vw;
+}
+.skills ul li {
+    padding-top: .8vw;
+}
+
+i {
+    text-shadow:2px 4px 6px rgb(104, 36, 27);
+}
+.fab, .fas {
+    font-size:40px;
+}
+
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(139, 59, 27);
+    width: 100%;
+    height: 80vh;
+    box-shadow: rgba(0, 0, 0, 0.19) 15px 9px 20px 10px;
+}
+
+.main-project {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap-reverse;
+    margin: 0px auto;
+    width: 90%;
+    height: 80%;
+    background-color: wheat;
+    border-radius: 15px;
+}
+
+.main-project .project-1, .project-2, .project-3 {
+        width: 30%;
+        height: 85%;
+        margin: 5px;
+        border-radius: 3px;
+}
+
+
+ .projects h3 {
+     text-align: center;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin: 30px 0px 15px 0px;
+     font-size: 30px;
+     color: wheat;
+ }
+
+ .main-project a{
+     text-decoration: none;
+ }
+
+ .projects h4 {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(139, 59, 27);
+}
+
+.main-project .project-1 img, .project-2 img, .project-3 img {
+width: 100%;
+height: 88%;
+margin-top: 10px;
+}
+
+
+
+.contact {
+    display:flex;
+    height: 60vh;
+    width: 80vw;
+    margin: 20vh auto;
+}
+
+.contact .image {
+width: 60%;
+height: 90%;
+margin:auto auto;
+}
+
+.image img {
+width: 100%;
+height: 100%;
+border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.form h3 {
+    text-align: center;
+    margin:auto auto;
+    font-size: 18px;
+    color:rgb(139, 59, 27);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 10px 0px 0px 4vh;
+    width:25vw;
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.form-input label {
+    color:rgb(139, 59, 27);
+    margin-top: 2px;
+}
+
+input[type='text'],input[type='tel'],input[type='email'] {
+width: 100%;
+height: 25px;
+border: 1px solid rgb(214, 66, 36);
+border-radius: 5px;
+margin-bottom: 5px;
+}
+
+.form-input textarea {
+    width: 100%;
+    height: 30%;
+    border: 1px solid rgb(214, 66, 36);
+    border-radius: 5px;
+}
+
+.btn {
+    width: 30%;
+    height: 30px;
+    color: rgb(139, 59, 27); 
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: end;
+    width:100%;
+    height: 30vh;
+    background-color: rgb(139, 59, 27);
+ }
+
+ footer nav {
+     margin: auto 5rem auto 0px;
+ }
+
+  footer .coffee {
+      margin: auto 22vw auto 0px;
+  }
+
+footer nav li{
+    display: inline;
+}
+
+footer nav li a{
+    text-decoration: none;
+    padding: 1vw;
+    color: wheat;
+    font-size: 20px;
+}
+
+footer .coffee a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 25px;
+}
+
+
+@media (max-width: 750px) {
+    .description h2 {
+        font-size: 27px;
+    }
+    .description h3, .description p {
+        font-size: 25px;
+    }
+    .skills ul li  {
+        padding-top: .2vw;
+    }
+    .skills ul li i {
+        font-size: 16px;
+    }
+    footer {
+
+        background-color: wheat;
+    }
+    footer nav {
+        margin:auto;
+    }
+
+    footer nav li a {
+        text-decoration: none;
+        color: rgb(139, 59, 27);
+        font-size: 16px;
+    }
+    footer .coffee a{
+    font-size: 16px;
+    color: rgb(139, 59, 27);
+    margin: auto;
+    }
+}
+@media (max-width:450px) {
+    header nav {
+        margin: auto;
+    }
+    header #navbar ul a {
+        margin-right: 1px;
+        text-decoration: none;
+    }
+    header li {
+        padding-left: 5px;
+    }
+    header .phine {
+        display: none;
+    }
+    #welcome-section h1 {
+      font-size: 8vw;
+      letter-spacing: 2px;
+    }
+    .description h2, .description p, .description h3 {
+        font-size: 20px;
+    }
+    .description {
+        width: 60%;
+        margin-left: 0px;
+    }
+    .skills {
+        width: 30%;
+        border-radius: 10px;
+        box-shadow: none;
+        margin: auto;
+    }
+    .skills .technology {
+        margin: 3vw auto 0px auto;
+    }
+    .technology .tech {
+        display: none;
+    }
+     .skills ul li i {
+        font-size: 18px ;
+    }
+    .skills ul li {
+        padding-top: 7px;
+    }
+    #projects {
+     height: max-content;
+    }
+    .main-project {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+    }
+    .main-project .project-1, .project-2, .project-3 {
+     width: 100%;
+    } 
+    #contact {
+        width: 100%
+    }
+
+    input[type='text'],input[type='tel'],input[type='email'] {
+    width: 100%;
+    }
+     .form .form-input {
+        width: 95%;
+        margin-right: 4px;
+    }
+    footer .coffee {
+        display: none;
+    }
+    footer {
+        height: 7vh ;
+        border-top-left-radius: 18px;
+    }
+    footer nav {
+        margin:auto;
+    }
+
+    footer nav li a {
+        text-decoration: none;
+        color: rgb(139, 59, 27);
+        font-size: 12px;
+    }
+    footer nav ul li .fab {
+        display: none;
+    }
+
+}
+
+
