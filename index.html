@@ -1,146 +1,339 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Phinehas Sersah Portfolio</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Monoton&family=Pacifico&family=Shrikhand&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./resources/style.css" type="text/css">
-        <script src="https://kit.fontawesome.com/bab61862e5.js" crossorigin="anonymous"></script>
-    </head>
-    <header>
-        <a class="phine" id='profile-link' href="https://github.com/Phine1" target="_blank">Phinehas</a>
-        <nav id="navbar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phinehas | Design Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Cinzel+Decorative:wght@700&family=Cinzel:wght@500&family=Cormorant:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./resources/style.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/bab61862e5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script> -->
+  </head>
+  <header>
+    <a
+      class="phine"
+      id="profile-link"
+      href="https://www.linkedin.com/in/phinehas-sersah-620a8013b/"
+      target="_blank"
+      >Phinehas</a
+    >
+    <i class="menu fas fa-bars"></i>
+
+    <nav id="navbar">
+      <ul>
+        <a href="#welcome-section"><li>Home</li></a>
+        <hr />
+        <a href="#about"><li>About</li></a>
+        <hr />
+        <a href="#projects"><li>Projects</li></a>
+        <hr />
+        <a href="#contact"> <li>Contacts</li></a>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <!--First of main section-->
+    <section id="welcome-section">
+      <h1 class="design">WELCOME TO MY PORTFOLIO</h1>
+      <br />
+      <p class="name">PHINEHAS SERSAH</p>
+    </section>
+
+    <section class="middle-section" id="about">
+      <div class="sample">
+        <h3 class="sample-intro">
+          Feel free to explore and learn more about me and my work
+        </h3>
+      </div>
+
+      <section class="project-space">
+        <section class="sample-column-1">
+          <div class="block-1">
+            <div class="project-description-1">
+              <p><strong> iPayroll</strong></p>
+              <p>
+                iPayroll is React App which automates employees data management,
+                salary calculations and email their monthly payslips as well
+              </p>
+              <a href="https://ipayrollv1.herokuapp.com/" target="_blank"
+                ><button class="project-button">See Project</button>
+              </a>
+            </div>
+            <img
+              src="./resources/images/ipayroll.jpg"
+              alt="payroll management system"
+            />
+          </div>
+
+          <div class="block-2">
+            <div class="project-description-2">
+              <p><strong> Jamming App</strong></p>
+              <p>
+                Jamming is a React App that connects to my Spotify account, create
+                new playlists, and sample songs
+              </p>
+              <a href="https://phine-jamjam.netlify.app/" target="_blank"
+                ><button class="project-button">See Project</button>
+              </a>
+            </div>
+            <img src="./resources/images/jam.jpg" alt="Spotify playlists app" />
+          </div>
+
+          <div class="block-3">
+            <div class="project-description-3">
+              <p><strong>Tribute Page</strong></p>
+              <p>
+                This is a static page tribute to J.J Rawlings, former president
+                of the Republic of Ghana
+              </p>
+              <a
+                href="https://optimistic-heisenberg-8cfd86.netlify.app/"
+                target="_blank"
+                ><button class="project-button">See Project</button>
+              </a>
+            </div>
+            <img src="./resources/images/jj.jpg" alt="Tribute page" />
+          </div>
+
+          <div class="block-4">
+            <div class="project-description-4">
+              <p><strong>Random Quote App</strong></p>
+              <p>
+                This app generates random motivational quotes on a click of a
+                button. Built with React, it inspires me everyday
+              </p>
+              <a href="https://phine-random-quote.netlify.app" target="_blank"
+                ><button class="project-button">See Project</button>
+              </a>
+            </div>
+            <img
+              src="./resources/images/random quote.jpg"
+              alt="random quote generator"
+            />
+          </div>
+
+          <div class="block-5">
+            <div class="project-description-5">
+              <p><strong>XMLHTTP Request</strong></p>
+              <p>
+                An introductory documentation on using XMLHTTP Requests to
+                exchange data between websites and servers.
+              </p>
+              <a href="" target="_blank"
+                ><button class="project-button">See Project</button>
+              </a>
+            </div>
+            <img
+              src="./resources/images/technical doc.jpg"
+              alt="technical documentation page"
+            />
+          </div>
+
+          <div class="block-6">
+            <div class="project-description-6">
+              <p><strong>Parallax Scroll</strong></p>
+              <p>
+                This project is a travel blog dedicated to parallax scrolling
+                implementation
+              </p>
+              <a
+                href="https://dazzling-wilson-d111d9.netlify.app"
+                target="_blank"
+                ><button class="project-button">See Project</button>
+              </a>
+            </div>
+            <img
+              src="./resources/images/parallax.jpg"
+              alt="parallax scrolling"
+            />
+          </div>
+
+          <div class="block-7">
+            <div class="project-description-7">
+              <p><strong>Wanderlust</strong></p>
+              <p>
+                Wanderlust is a travel app that helps the end user to search
+                tavel locations, shopping malls and accommodation.
+              </p>
+              <a
+                href="https://agitated-brattain-703230.netlify.app/"
+                target="_blank"
+                ><button class="project-button">See Project</button>
+              </a>
+            </div>
+            <img
+              src="./resources/images/wandalust.jpg"
+              alt="building designs"
+            />
+          </div>
+        </section>
+
+        <section class="sample-column-2">
+          <section class="education">
+            <div class="education-title">
+              <h2>Education</h2>
+              <hr />
+            </div>
+            <div class="schools">
+              <h3>Takoradi Technical University</h3>
+              <h4>BTech - Civil Engineering</h4>
+              <hr />
+              <h3>Columbia University Via Coursera</h3>
+              <h4>Project Management</h4>
+              <hr />
+              <h3>Amalitech Graduate Training</h3>
+              <h4>Front End Engineering | Web Development</h4>
+            </div>
+            <img
+              class="suit"
+              alt="self-image"
+              src="./resources/images/pic.jpeg"
+            />
+          </section>
+          <section class="technology-stack">
+            <div class="education-title">
+              <h2>Technology Stack</h2>
+              <hr />
+            </div>
             <ul>
-               <a href="#welcome-section"><li>Home</li></a> 
-               <a href="#about">   <li>About</li></a>
-               <a href="#projects"><li>Projects</li></a> 
-               <a href="#contact"> <li>Contacts</li></a>
+              <li>HTML & CSS</li>
+              <hr class="ul" />
+              <li>JavaScript</li>
+              <hr class="ul" />
+              <li>React & Redux</li>
+              <hr class="ul" />
+              <li>Sass & Boostrap</li>
+              <hr class="ul" />
+              <li>jQuery</li>
+              <hr class="ul" />
+              <li>TypeScript</li>
+              <hr class="ul" />
+              <li>Microsoft Office Suit</li>
+              <hr class="ul" />
             </ul>
-        </nav>
-    </header>
-    <body>
-        <!--First of main section-->
+          </section>
 
-        <section id="welcome-section">
-            <h1>Hi there!, Welcome to my page</h1>
-            <br>
-            <p>Feel free to explore and learn</p>
-            <br>
-            <p>more about me and my work </p>
+          <section class="soft-skills" id="reveal">
+            <div class="education-title">
+              <h2>Soft Skills</h2>
+              <hr />
+            </div>
+            <ul>
+              <li>Teamwork</li>
+              <hr />
+              <li>Problem Solving</li>
+              <hr />
+              <li>Adaptability</li>
+              <hr />
+              <li>Effective Communication</li>
+              <hr />
+            </ul>
+            <!-- <div class="education-title"> -->
+            <h2>Favorite Quote</h2>
+            <hr />
+            <h3 id="trigger-element">
+              <i class="fav fas fa-quote-left"></i>Every problem has a solution.
+              So focus on the problems that return the greatest rewards --
+              <span class="robert">Robert Kiyosaki </span>
+              <i class="fas fav fa-quote-right"></i>
+            </h3>
+            <!-- </div> -->
+          </section>
         </section>
+      </section>
+    </section>
+    <div class="button-div"><button>View Projects</button></div>
 
-        <section class="middle-section" id="about">
+    <!--Contact-->
+    <section class="contact" id="contact">
+      <div class="first-contact-session">
+        <h3>Phinehas Sersah</h3>
+        <hr />
+      </div>
+      <div class="second-contact-session">
+        <div class="image-hover">
+          <p>Hover below to learn more about me</p>
+          <i id="hover" class=" fas fa-chevron-circle-down"></i>
+        </div>
+        <div class="image">
+          <img
+            class="self"
+            alt="self-image"
+            src="./resources/images/beach.jpg"
+        or  />
+        </div>
+        <div class="about-me">
+          
+          <p>
+            <i class="fas fa-quote-left"></i>
+            Passionate about Software Development and specialized in Frontend
+            Engineering, producing detailed client oriented products. I'm a
+            dedicated team player with high level of oral and written
+            communication skills. <br />
+            On a regular, I use HTML, CSS, JavaScript, React and Redux and
+            looking forward to learning Flutter. I use jQuery, Sass, TypeScript,
+            and Boostrap to enhance productivity.<br />
+            My free times are spent enjoying sports, reading and admiring
+            nature.<br />
+            Looking forward to learning new technologies, embrace new
+            opportunities, and opened to be mentored as well.
+            <i class="fas fa-quote-right"></i> 
+        </p>
+        </div>
+      </div>
+      <div class="third-contact-session">
+        <button><a href="" target="_blank">Download CV</a></button>
+        <button>
+          <a class="hire-me" href="mailto:phine.amd@gmail.com" target="_blank"
+            ><p>Hire Me</p></a
+          >
+        </button>
+      </div>
+    </section>
 
-            <!--image section-->
-            <div class="intro">
-                <div class="description">
-                    <h2> I'm Phinehas Sersah </h2>
-                    <br>
-                    <h3> A Frontend Developer</h3>
-                    <p>Specialized in web design and development</p>
-                    <p>I produce high quality and client-oriented projects </p>
-                </div>
-                
-            </div>
+    <footer>
+      <div class="coffee">
+        <a href=""
+          >
+          <i class="fas fa-mug-hot"></i>
+          <p>Would You Like Buy Me a Coffee?</p></a>
+      </div>
 
-              <!--skill-->
-
-                <div class="skills">
-                     <div class="technology">
-                         <h3 class="skillset"> Skills </h3>
-                         <h3 class="tech">% Technology Stack</h3>
-                    </div>
-                   <ul>
-                    <li><i class="fab fa-html5"></i>HTML & CSS</li>
-                    <li><i class="fab fa-js-square"></i>JavaScript</li>
-                    <li><i class="fab fa-react"></i>React & Redux</li>
-                    <li><i class="fab fa-sass"></i>Sass & Boostrap</li>
-                    <li><i class="fa-spinnerZoom fa fa-spinner fa-pulse fa-3x fa-fw "></i>jQuery</li>
-                    <li><i class="fas fa-angle-right"></i>TypeScript</li>
-                </ul>
-                </div>
-
-        </section>
-
-
-
-        <!--Third section-->
-
-        <section class="projects" id="projects">
-
-        
-            <h3>Take a look at some of my projects</h3>
-
-            <div class="main-project">
-
-                <div class="project-1">
-                   <a href="https://gifted-bardeen-c5ee5f.netlify.app/" target="_blank"><h4 class="project-tile">XMLHttp Request Documentation</h4></a>
-                   <a href="https://gifted-bardeen-c5ee5f.netlify.app/" target="_blank"> <img src="./resources/images/documentation.png" alt="http technical documentation"></a>
-                </div>
-
-
-                <div class="project-2">
-                    <a href="https://road-syderz.netlify.app/" target="_blank"><h4 class="project-tile">Survey Form</h4></a>
-                    <a href="https://road-syderz.netlify.app/" target="_blank"><img src="./resources/images/survey form.png" alt="survey form"></a>
-                </div>
-
-
-                <div class="project-3">
-                    <a href="https://flamboyant-poincare-c467ca.netlify.app/" target="_blank"><h4 class="project-tile">JJ Rawlings Tribute Page</h4></a>
-                   <a  href="https://flamboyant-poincare-c467ca.netlify.app/" target="_blank"><img src="./resources/images/rawlings.png" alt="Tribute to JJ Rawlings"></a>
-                </div>
-
-            </div>
-
-        </section>
-
-
-            <!--Contact-->
-            <div class="contact" id="contact">
-                <div class="image">
-                    <img src="./resources/images/beach.jpg" alt="self image">
-                </div>
-        
-                <div class="form">
-                    <h3>Leave Me a Message</h3>
-                    <form class="form-input">
-                            <label for="text">Name</label>
-                            <input id="text" type="text" class="field" placeholder="Your Name" required>
-                           
-                            <label for="email">E-mail</label>
-                            <input id="email" type="email" class="field" placeholder="Your Email" required>
-                            
-                            <label for="tel">Contact No.</label>
-                            <input id="tel" type="tel" class="field" placeholder="Optional" >
-                           
-                            <label for='textarea'>Message</label>
-                            <textarea id ='textarea' placeholder="Your Message" class="field"></textarea>
-                            <button class="btn">Send</button>
-                    </form>
-                </div>
-            </div>
-
-        <footer>
-            <div class="coffee">
-               <a href=""><i class="fas fa-mug-hot"></i><p>Would You Buy Me a Coffee?</p></a>
-            </div>
-            
-              <nav>
-                    <ul>
-                    <li class="footer"><i class="fab fa-github"></i><a class=" bottom" target="_blank" href="https://github.com/Phine1">GitHub</a></li>
-                    <li class="footer"><i class="fab fa-linkedin-in"></i><a class=" bottom" target="_blank" href="https://www.linkedin.com/in/phinehas-sersah-620a8013b/">LinkedIn</a></li>
-                    <li class="footer"><i class="fab fa-twitter"></i><a class=" bottom" target="_blank"href="https://twitter.com/Phine_Essel">Twitter</a></li>
-                    <li class="footer"><i class="fab fa-facebook-f"></i><a class=" bottom" target="_blank" href="https://www.facebook.com/psersah1">Facebook</a></li>
-                    </ul>
-              </nav>      
-        </footer>
-
-  
-
-    </body>
+      <nav>
+        <ul>
+          <li class="footer">
+            <a
+              class="bottom"
+              target="_blank"
+              href="https://www.linkedin.com/in/phinehas-sersah-620a8013b/"
+              ><i class="fab fa-linkedin-in"></i>LinkedIn</a
+            >
+          </li>
+          <li class="footer">
+            <a class="bottom" target="_blank" href="https://github.com/Phine1"
+              ><i class="fab fa-github"></i>GitHub</a>
+          </li>
+        </ul>
+      </nav>
+      <small>&copy; Copyright 2022, Phinehas Sersah</small>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script> -->
+    <script src="./resources/main.js"></script>
+    <script src="./resources/script.js"></script>
+  </body>
 </html>
-
