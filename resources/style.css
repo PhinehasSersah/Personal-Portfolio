@@ -260,7 +260,7 @@ header #navbar ul li {
 .button-div {
   display: none;
   width: 10em;
-  height: 2em;
+  height: 4em;
   margin: auto;
 }
 .button-div button {
@@ -463,8 +463,16 @@ footer small {
     header #navbar {
       right: 0.5vw;
     }
+    #welcome-section h1 {
+        font-size: 5.5vw;
+        line-height: 28px;
+      }
+      #welcome-section p {
+        font-size: 20px;
+      }
+      
     .middle-section {
-        height: 280vh;
+        height: 350vh;
     }
     .middle-section .sample {
       width: 80vw;
@@ -501,6 +509,19 @@ footer small {
       margin: auto;
       padding-top: 10px;
     }
+    .middle-section .project-space .sample-column-1 .block-1:hover,
+.middle-section .project-space .sample-column-1 .block-7:hover,
+.middle-section .project-space .sample-column-1 .block-3:hover,
+.middle-section .project-space .sample-column-1 .block-5:hover,
+.middle-section .project-space .sample-column-1 .block-7:hover,
+.middle-section .project-space .sample-column-1 .block-2:hover,
+.middle-section .project-space .sample-column-1 .block-4:hover,
+.middle-section .project-space .sample-column-1 .block-6:hover,
+.middle-section .project-space .sample-column-1 .block-8:hover {
+  width: 90%;
+  height: 27rem;
+  transition: all 1s ease-in;
+}
     #welcome-section #navbar ul a {
       margin-right: 4px;
     }
@@ -516,13 +537,25 @@ footer small {
     .sample-column-2 h2 {
         margin-top: 1rem;
     }
+    .project-space .project-description-1,
+.project-space .project-description-2,
+.project-space .project-description-3,
+.project-space .project-description-4,
+.project-space .project-description-5,
+.project-space .project-description-6,
+.project-space .project-description-7,
+.project-space .project-description-8 {
+    width: 86vw;
+    margin: auto;
+}
     .button-div {
       display: grid;
       position: relative;
-      bottom: 80vw;
+      bottom: 6vw;
       width: 10em;
-      height: 2em;
+      height: 3em;
       margin: auto;
+      color: #2b4f60;
     }
     .contact {
         /* position: relative;
