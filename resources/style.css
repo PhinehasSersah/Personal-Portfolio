@@ -36,7 +36,7 @@ header #navbar {
   position: absolute;
   top: 10vh;
   right: 0;
-  background-color: #2b4f60;
+  background-color: hsl(199, 38%, 27%);
   height: 25vh;
   width: 12em;
   display: none;
@@ -80,7 +80,7 @@ header #navbar ul li {
 
 .middle-section {
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: 480vh;
   flex-direction: column;
   background: url("./images/bernd.jpg") no-repeat center center fixed;
@@ -241,9 +241,6 @@ header #navbar ul li {
   color: #845460;
 }
 
-/* i {
-    text-shadow:2px 4px 6px rgb(104, 36, 27);
-} */
 .sample-column-2 .education .suit {
   display: block;
   width: 11rem;
@@ -277,10 +274,11 @@ header #navbar ul li {
   background: linear-gradient(#bdc7c9, #ead3cb);
 }
 .contact {
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   height: 120vh;
-  width: 100vw;
+  width: 100%;
   background-color: #ead3cb;
 }
 .contact .first-contact-session {
@@ -452,6 +450,65 @@ footer small {
   margin: auto;
   color: #bdc7c9;
   font-size: 1em;
+}
+@media (max-width:780px) {
+  header #navbar {
+    height: 30vh;
+    width: 12em;
+    display: none;
+  }
+  #welcome-section h1 {
+    font-size: 3.7vw;
+    color: #2b4f60;
+    letter-spacing: 10px;
+    text-align: center;
+    display: none;
+  }
+  .sample-column-2 h2 {
+    font-size: 1.6rem;
+    padding: 1em;
+    margin-top: 4rem;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+  }
+.sample-column-2 h3,
+.sample-column-2 h4,
+.sample-column-2 li {
+  font-size: 1.1em;
+  padding: 0.5em;
+  font-weight: 230;
+  text-shadow: 2px 4px 6px rgb(104, 36, 27);
+  list-style: none;
+}
+.sample-column-2 .education .suit {
+
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  margin: 3em auto;
+}
+.middle-section .sample .sample-intro {
+  font-size: 1.8rem;
+}
+.contact .image-hover {
+  width: 45vw;
+}
+.contact .about-me p {
+  font-size: 1.35em;
+  font-weight: 250;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+  text-shadow: 2px 4px 6px rgb(104, 36, 27);
+}
+.second-contact-session .image-hover i {
+  font-size: 6em;
+  text-shadow: 2px 4px 6px rgb(104, 36, 27);
+  text-align: center;
+  color: #ead3cb;
+  margin: 0.5em 0 0 1.4em;
+  /* margin: auto; */
+}
+
 }
 
 @media (max-width: 480px) {
