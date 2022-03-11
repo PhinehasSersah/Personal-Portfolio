@@ -664,3 +664,189 @@ footer small {
       text-shadow: 2px 4px 6px rgb(104, 36, 27);
     }
   }
+  @media (max-width:380px) {
+    header {
+      width:100%;
+    }
+    .middle-section {
+      height: 500vh;
+  }
+  .middle-section .sample {
+    width: 80vw;
+    height: 9em;
+    margin: 1em auto 4.5em auto;
+  }
+    .sample-column-2 .education,
+    .sample-column-2 .technology-stack,
+    .sample-column-2 .soft-skills {
+     
+      height: 28%;
+    }
+    
+.contact .third-contact-session {
+  display: flex;
+  height: 8vw;
+  margin-top: 18rem;
+  justify-content: space-evenly;
+}
+.contact .image-hover {
+  margin-top: 13rem;
+}
+#hover {
+  display:none;
+}
+
+  }
+  /* @media (max-width: 300px) {
+  
+    header .menu {
+      right: 10vw;
+      margin-top: 1.1em;
+    }
+    header #navbar {
+      right: 0.5vw;
+    }
+    #welcome-section h1 {
+        font-size: 5.5vw;
+        line-height: 28px;
+      }
+      #welcome-section p {
+        font-size: 20px;
+      }
+      
+    .middle-section {
+        height: 350vh;
+    }
+    .middle-section .sample {
+      width: 80vw;
+      height: 8em;
+      margin: 1em auto 1em auto;
+    }
+    .middle-section .sample .sample-intro {
+      font-size: 23px;
+    }
+    .middle-section .project-space {
+        position: relative;
+      flex-direction: column;
+      height: 100%;
+      bottom: 10em;
+    }
+    .middle-section .project-space .sample-column-1 {
+      width: 95vw;
+      margin: auto;
+      display: none;
+    }
+    .middle-section .project-space .sample-column-2 {
+      width: 95vw;
+      margin: auto;
+    }
+    .middle-section .project-space .sample-column-1 .block-1,
+    .middle-section .project-space .sample-column-1 .block-3,
+    .middle-section .project-space .sample-column-1 .block-5,
+    .middle-section .project-space .sample-column-1 .block-7,
+    .middle-section .project-space .sample-column-1 .block-2,
+    .middle-section .project-space .sample-column-1 .block-4,
+    .middle-section .project-space .sample-column-1 .block-6,
+    .middle-section .project-space .sample-column-1 .block-8 {
+      width: 95vw;
+      margin: auto;
+      padding-top: 10px;
+    }
+    .middle-section .project-space .sample-column-1 .block-1:hover,
+.middle-section .project-space .sample-column-1 .block-7:hover,
+.middle-section .project-space .sample-column-1 .block-3:hover,
+.middle-section .project-space .sample-column-1 .block-5:hover,
+.middle-section .project-space .sample-column-1 .block-7:hover,
+.middle-section .project-space .sample-column-1 .block-2:hover,
+.middle-section .project-space .sample-column-1 .block-4:hover,
+.middle-section .project-space .sample-column-1 .block-6:hover,
+.middle-section .project-space .sample-column-1 .block-8:hover {
+  width: 90%;
+  height: 27rem;
+  transition: all 1s ease-in;
+}
+    #welcome-section #navbar ul a {
+      margin-right: 4px;
+    }
+    #welcome-section #navbar li {
+      padding-left: 4px;
+    }
+    .sample-column-2 .education,
+    .sample-column-2 .technology-stack,
+    .sample-column-2 .soft-skills {
+      width: 95%;
+      height: 22%;
+    }
+    .sample-column-2 h3,
+.sample-column-2 h4,
+.sample-column-2 li {
+  font-size: 1.3em;
+  padding: 0.5em;
+  font-weight: 240;
+  text-shadow: 2px 4px 6px rgb(104, 36, 27);
+  list-style: none;
+}
+    .sample-column-2 h2 {
+        margin-top: 1rem;
+    }
+    .project-space .project-description-1,
+.project-space .project-description-2,
+.project-space .project-description-3,
+.project-space .project-description-4,
+.project-space .project-description-5,
+.project-space .project-description-6,
+.project-space .project-description-7,
+.project-space .project-description-8 {
+    width: 86vw;
+    margin: auto;
+}
+    .button-div {
+      display: grid;
+      position: relative;
+      bottom: 6vw;
+      width: 10em;
+      height: 3em;
+      margin: auto;
+      color: #2b4f60;
+    }
+    .contact {
+        /* position: relative;
+        bottom: 40em; */
+      /* height: 151vh;
+    }
+    .contact .second-contact-session {
+      flex-direction: column;
+    }
+  
+    .contact .image-hover {
+      width: 90vw;
+      height: 50vh;
+    }
+    #hover {
+      font-size: 6em;
+      margin-top: 1em;
+      margin-left: 35vw;
+    }
+    .contact .image {
+      bottom: 10em;
+      width: 90vw;
+      height: 35vh;
+      background-color: #2b4f60;
+    }
+    .contact .about-me {
+      width: 100%;
+      height: 75vh;
+      margin-top: 5em;
+    }
+    .contact .image img {
+      display: block;
+      width: 85vw;
+      height: 95vw;
+    }
+    .contact .about-me p {
+      font-size: 1.5em;
+      line-height: 1.4em;
+      letter-spacing: 0.2px;
+      text-shadow: 2px 4px 6px rgb(104, 36, 27);
+    }
+  }  */

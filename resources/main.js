@@ -93,8 +93,8 @@ $viewProjects.on('click', ()=> {
 
 $design.fadeIn(7000);
 
-$headerIcon.on('mouseenter', () => {
-    $navigation.show()
+$headerIcon.on('click', () => {
+    $navigation.toggle()
 })
  $navigation.on('mouseleave', () => {
      $navigation.hide();
