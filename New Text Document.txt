@@ -1,0 +1,6 @@
+colors: {
+      'primary': '#F0E5CF',
+      'second': '#f7f6f2',
+      'third': 'c8c6c6',
+      'fourth': '#4b6587'
+    }
