@@ -1,6 +1,6 @@
 colors: {
       'primary': '#F0E5CF',
-      'second': '#f7f6f2',
-      'third': 'c8c6c6',
-      'fourth': '#4b6587'
+      'second': '#0f3260',
+      'third': '#4b6587',
+      'fourth': '#0f3260'
     }

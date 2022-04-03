@@ -31,18 +31,17 @@
   </head>
   <body>
     
-    <header >
+    <header id='home' class="bg-deep">
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="relative flex items-center justify-between">
           <a href="/" aria-label="name" title="Phinehas" class="inline-flex items-center">
-            <img alt="profil" src="/images/person/1.jpg" class="mx-auto object-cover rounded-full h-10 w-10 "/>
-            <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Phinehas</span>
+            <img alt="profil" src="./images/pic.jpeg" class="mx-auto object-cover rounded-full h-10 w-10 "/>
+            <span class="ml-4 text-xl font-bold tracking-wide text-light uppercase">Phinehas</span>
           </a>
-          <ul class="flex items-center hidden space-x-8 lg:flex">
-            <li><a href="/" aria-label="Homepage" title="Home page" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Home</a></li>
-            <li><a href="/" aria-label="About" title="About" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">About</a></li>
-            <li><a href="/" aria-label="Project" title="Project" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Projects</a></li>
-            <li><a href="/" aria-label="Contact" title="Contact" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Contact</a></li>
+          <ul class="items-center hidden space-x-8 lg:flex ">
+            <li><a href="#home" aria-label="Homepage" title="Home page" class="font-medium tracking-wide text-light transition-colors duration-200 hover:underline ">Home</a></li>
+            <li><a href="./projects/project.html" aria-label="Project" title="Project" class="font-medium tracking-wide text-light transition-colors duration-200 hover:hover:underline">Projects</a></li>
+            <li><a href="./About/about.html" aria-label="About" title="About" class="font-medium tracking-wide text-light transition-colors duration-200 hover:hover:underline">About</a></li>
           </ul>
           </div>
           </div>
@@ -53,18 +52,21 @@
     <!-- <section id="welcome-section" class="w-screen h-screen"> -->
 
       
-    <main class="bg-white dark:bg-gray-800 w-full h-screen">
-      <div class="container px-6 py-16 mx-auto">
+    <main class="bg-slate-400 w-full h-screen relative ">
+      <!-- <div class="absolute top-56 left-48 opacity-20 h-32 w-32 bg-slate-800">
+            
+      </div> -->
+      <div class="container  px-6 py-0 h-4/5 mx-auto">
           <div class="items-center lg:flex">
-              <div class="w-full lg:w-1/2">
-                  <div class="lg:max-w-lg">
-                      <h1 class="text-2xl font-semibold text-gray-800  dark:text-white lg:text-3xl">Hi there!, I am Phinehas Sersah. Welcome to my Portfolio website</h1>
-                      <p class="mt-2 text-gray-600 dark:text-gray-400">I just love Front-End development. Feel free to explore around the site to learn more about me and my work</p>
+              <div class="w-full lg:w-1/2  h-64">
+                  <div class=" h-2/3 lg:max-w-lg">
+                      <h1 class="text-4xl leading-loose h-10 font-extrabold font-barC text-gray-800  dark:text-white lg:text-3xl">Hi there!, I am Phinehas Sersah. Welcome to my Portfolio website</h1>
+                      <p class="mt-20 text-gray-600 dark:text-gray-400">I just love Front-End development. Feel free to explore around the site to learn more about me and my work</p>
                   </div>
               </div>
       
-              <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-                  <img class="w-full h-full lg:max-w-2xl" src="../../../assets/svg/Catalogue-pana.svg" alt="Catalogue-pana.svg">
+              <div class="flex items-center max-h-96 justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
+                  <img class="w-full h-full lg:max-w-2xl" src="./images/self1.png" alt="Self image">
               </div>
           </div>
       </div>
